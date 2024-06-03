@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BtMonitor</string>
+    <string name="state_off">Safe unlocked</string>
+    <string name="menu_main">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_timer">Timer</string>
+    <string name="state_on">Safe locked</string>
+    <string name="your_password">Your lock\\unlock password</string>
+    <string name="save_password">Save Password</string>
+    <string name="bluetooth_device_fragment_no_device_found">Devices not found</string>
+    <string name="bluetooth_devices">Bluetooth Devices</string>
+    <string name="connented_to">Connected to %s</string>
+    <string name="hint_sec">Time on seconds</string>
+    <string name="device_not_connected">Device not connected</string>
+</resources>

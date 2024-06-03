@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.example.btmonitor.fragments.MainFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/action_settings"
+        android:name="com.example.btmonitor.fragments.PasswordFragment"
+        android:label="Password"
+        tools:layout="@layout/fragment_password" />
+
+    <fragment
+        android:id="@+id/action_timer"
+        android:name="com.example.btmonitor.fragments.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+</navigation>
